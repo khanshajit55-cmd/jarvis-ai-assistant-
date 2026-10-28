@@ -1,0 +1,33 @@
+# JARVIS AI - Native Android Voice Assistant (Infinix Hot 40i)
+
+A native Android voice assistant engineered with **Kotlin**, **Jetpack Compose**, **Material 3**, **Android SpeechRecognizer**, **Android TextToSpeech**, **Android 13 Foreground Service**, **Safe Action Router**, and **Local Vault Memory**.
+
+---
+
+## 📱 Hardware & OS Target: Infinix Hot 40i (Android 13 / XOS 13)
+
+- **Chipset:** Unisoc T606 / Helio G88 class
+- **OS:** Android 13 (Tiramisu) with XOS 13 UI
+- **Microphone:** Dedicated Foreground Service with ongoing notification complying with Android 13 privacy sandbox.
+- **Languages Supported:**
+  - 🇧🇩 **Bangla (বাংলা):** Natural Bengali speech recognition (`bn-BD`) and voice synthesis.
+  - 🌐 **Banglish:** Mixed Bengali-English conversational parsing.
+  - 🇺🇸 **English:** Fast English command handling (`en-US`).
+
+---
+
+## 🚀 Zero-Budget Compilation Guide (No Computer Required)
+
+### Method: Free Cloud Build with GitHub Actions
+1. Create a free account on [github.com](https://github.com) from your phone's browser.
+2. Tap **+** > **New repository** > Name it `jarvis-ai` (Private or Public).
+3. Upload the project files listed above.
+4. GitHub will detect `.github/workflows/build-apk.yml` and automatically run the cloud compiler for $0.
+5. Tap the **Actions** tab > Click the workflow run > Under **Artifacts**, tap **jarvis-ai-infinix-hot40i-apk** to download `app-debug.apk` directly to your phone.
+
+---
+
+## 🛡️ Security Architecture: Safe Action Router
+
+- Consequential actions (`CALL_PHONE`, `CLEAR_MEMORY`) strictly require manual user confirmation.
+- Arbitrary terminal/shell execution is prohibited.
